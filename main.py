@@ -29,7 +29,7 @@ print("""
 action = int(input('your choice:'))
 if action == 1:
     os.system('chmod +x user.sh')
-    os.system('./user.sh'))
+    os.system('./user.sh')
 elif action == 2:
     os.system('chmod +x install_uninstall.sh')
     os.system('./install_uninstall.sh')
